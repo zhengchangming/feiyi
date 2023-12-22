@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-size: 13px;
+    color: #000;
+    background-color: #ebe6e670;
+}
+
+
+/*头部*/
+
+.header {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header .top {
+    height: 95px;
+    overflow: hidden;
+}
+
+.header .top .logo {
+    margin-top: 20px;
+    float: left;
+}
+
+.header .top .logo img {
+    height: 80px;
+    display: block;
+}
+
+.header .top .link {
+    float: right;
+    line-height: 95px;
+}
+
+.header .top .link a {
+    margin: 0 4px;
+}
+
+.header .top .link a:hover {
+    text-decoration: underline;
+}
+
+.header .nav {
+    width: 1000px;
+    height: 37px;
+    margin-bottom: 6px;
+    background-color: #c12d22;
+}
+
+.header .nav ul {
+    width: 990px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.header .nav ul li {
+    text-align: center;
+    float: left;
+    height: 37px;
+    line-height: 37px;
+}
+
+.header .nav ul li a {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 150px;
+    display: block;
+    font-weight: bold;
+}
+
+.header .nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+.banner {
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 1000px;
+}
+
+
+/*中间内容*/
+
+.content {
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    width: 205px;
+    float: left;
+    overflow: hidden;
+}
+
+.sidebar .pro_box {
+    width: 200px;
+    border: 1px solid #b4b4b4;
+    margin-bottom: 10px;
+}
+
+.sidebar .pro_box img {
+    margin-bottom: 12px;
+}
+
+.sidebar .pro_box ul {
+    width: 200px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.sidebar .pro_box li {
+    margin-bottom: 5px;
+}
+
+.sidebar .pro_box li a {
+    display: block;
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 43px;
+}
+
+.sidebar .pro_box li a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.sidebar .contact_box {
+    width: 200px;
+    height: 231px;
+    border: 1px solid #b4b4b4;
+    overflow: hidden;
+}
+
+.sidebar .contact_box .text {
+    width: 200px;
+    padding: 40px 0 0 15px;
+    height: 170px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.sidebar .contact_box .text p {
+    line-height: 200%;
+}
+
+.tit {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #c12d22;
+    overflow: hidden;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.cont_right {
+    width: 780px;
+    float: right;
+    overflow: hidden;
+}
+
+.cont_right .title {
+    width: 778px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #c12d22;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+}
+
+.cont_right .title h3 {
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.cont_right .title .more {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    color: white;
+}
+
+.cont_right .title p {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.cont_right .title p a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+.cont_right .title p a:hover {
+    text-decoration: underline;
+}
+
+.cont_right .pic_show {
+    width: 780px;
+    overflow: hidden;
+}
+
+.cont_right .pic_show ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.cont_right .pic_show li {
+    width: 185px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
+
+.cont_right .pic_show li img {
+    width: 185px;
+    height: 180px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cont_right .pic_show li a:hover {
+    text-decoration: underline;
+}
+
+.cont_right .jianjie {
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.cont_right .jianjie .box {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.cont_right .jianjie .box img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.cont_right .jianjie .box p {
+    line-height: 26px;
+    text-indent: 24px;
+    font-size: 14px;
+}
+
+.cont_right .node p {
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 28px;
+    margin: 10px 0;
+}
+
+.cont_right .node img {
+    width: 600px;
+}
+
+
+/*底部*/
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    background-color: #c12d22;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .copyright p {
+    line-height: 2;
+}
+
+
+/*美食介绍*/
+
+.jieshao .tuwen {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.spirit {
+    width: 740px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spleft {
+    width: 480px;
+}
+
+.spleft li img {
+    width: 480px;
+}
+
+.spright {
+    width: 240px;
+}
+
+.spright li h4 {
+    margin: 10px 0;
+    font-size: 21px;
+    color: chocolate;
+    text-align: center;
+}
+
+.spright li p {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/*菜系介绍*/
+
+.caixi .list {
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.caixi .list li {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.caixi .list .pic {
+    float: left;
+    width: 245px;
+    margin-right: 20px;
+}
+
+.caixi .list .pic img {
+    width: 245px;
+    height: 180px;
+}
+
+.caixi .list .pic h3 {
+    text-align: center;
+}
+
+.caixi .list p {
+    line-height: 2;
+    text-indent: 24px;
+}
